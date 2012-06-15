@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+
+  <assemblyIdentity name="UCTest" version="1.0.0.0" type="win32" publicKeyToken="D2D6345C4DBFF058"/>
+
+  <clrClass
+   name="UCTest.ActiveXControl"
+   clsid="{A159AA58-7112-31E4-8596-0A3A431FFFEE}"
+   tlbid="{820BD0EC-8CE4-4D33-85E1-A84CDF34357B}"
+   progid="UCTest.ActiveXControl"
+   threadingModel="Both"/>
+  <clrClass
+     clsid="{B6F3818A-E877-388B-A783-0D18D16BA2F4}"
+     progid="UCTest.Test"
+     tlbid="{820BD0EC-8CE4-4D33-85E1-A84CDF34357B}"
+     threadingModel="Both"
+     name="UCTest.Test"
+     runtimeVersion="" />
+
+  <file name="UCTest.dll" hashalg="SHA1"></file>
+  <file name="UCTest.tlb">
+    <typelib
+        tlbid="{820BD0EC-8CE4-4D33-85E1-A84CDF34357B}"
+        version="1.0"
+        helpdir=""
+        flags="HASDISKIMAGE"/>
+  </file>
+
+</assembly>
