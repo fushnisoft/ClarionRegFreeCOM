@@ -11,6 +11,8 @@ This project is a demonstration of my attempts to use Registration-Free Activati
 Installation
 ============
 
+** Running this project assumes that you have the .NET Framework v2 installed**
+
 You can download the files as a zip file from the link on this page or better yet, go get the awesome `GitHub windows client <http://windows.github.com/>`_ !
 
 I have included the binary files so you can just run the InteropTest.exe and see what happens. If you are interested in taking a look and compiling it for yourself I have included both the Visual Studio 2010 C# project and the Clarion8 project (source only, no app or templates required). Have a look in the \Src directory, it should be fairly self explanatory.
